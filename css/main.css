@@ -97,9 +97,111 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Main Concent */
+
+html {
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+body {
+    background-color: #f2a891;
+    padding-top: 4em;
+}
+h1{
+    color: #505052;
+}
+h2{
+    color: #505052;
+}
+p {
+    color: #505052;
+    max-width: 750px;
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Main Nav */
+
+.logo {
+    position: fixed;
+    top: -10%;
+    left: 2%;
+    max-width: 30%;
+    padding: 0;
+}
+.frog-icon {
+    position: fixed;
+    top: -1%;
+    right: 2%;
+    max-width: 15%;
+    padding: 0;
+}
+
+/* Intro Section */
+
+ .title {
+    position:absolute;
+    left: 0; 
+    width: 100%;
+    margin-left:50%;
+    font-size : 90px;
+    font-weight: bolder;
+    font-family: sans-serif; 
+    top: 200px; 
+ }
+ .title-remark {
+    position:absolute;
+    left: 0; 
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 58%;
+    top: 365px;
+ }
+.header-image { 
+   position: relative; 
+   width: 100%; 
+   z-index: -10;
+   margin-left: 5%;
+   }
 
 
+ /* About Section */
+.recipe {
+    max-width: 20%;
+    margin-left: 5%;
+}
+.ingredients {
+    max-width: 50%;
+    margin-left: 5%;
+}
+.la-way {
+    max-width: 50%;
+    margin-left: 5%;
+}
+.viola {
+    z-index: -10;
+    margin-left: 5%;
+    max-width: 50%;
+}
 
+/* Reasons Why Section */
+.reason-why {
+    position: relative;
+    margin-left: 5%;
+}
+/* Let's Talk Section */
+.chef-image {
+    margin-left: 50%;
+}
+/* Side Links */
 
 
 
