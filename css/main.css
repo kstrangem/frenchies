@@ -108,13 +108,13 @@ html {
 body {
     background-color: #f2a891;
     padding-top: 4em;
-}
+    }
 h1{
     color: #505052;
-}
+    }
 h2{
     color: #505052;
-}
+    }
 p {
     color: #505052;
     max-width: 750px;
@@ -124,7 +124,7 @@ p {
 p a{
     text-decoration: none;
     color: white;
-}
+    }
 /* Main Nav */
 
 .logo {
@@ -133,17 +133,17 @@ p a{
     left: 2%;
     max-width: 21%;
     padding: 0;
-}
-.logo a:hover {
-    opacity: 0.5;
-}
+    }
+.logo:hover {
+    opacity: 0.8;
+    }
 .frog-icon {
     position: fixed;
     top: -1%;
     right: 2%;
     max-width: 15%;
     padding: 0;
-}
+    }
 
 /* Intro Section */
 
@@ -158,7 +158,7 @@ p a{
     font-family: sans-serif;
     letter-spacing: -5px;
     top: 200px; 
- }
+    }
  .title-line2 {
     position:absolute;
     left: 0; 
@@ -170,7 +170,7 @@ p a{
     font-weight: bolder;
     font-family: sans-serif; 
     top: 275px;
- }
+    }
  .title-line3 {
     position:absolute;
     left: 0; 
@@ -183,7 +183,7 @@ p a{
     color: white;
     font-family: sans-serif; 
     top: 355px;
- }
+    }
  .title-remark {
     position:absolute;
     left: 0; 
@@ -194,7 +194,7 @@ p a{
     color: white;
     margin-left: 53%;
     top: 400px;
- }
+    }
 .header-image { 
    position: relative; 
    width: 100%; 
@@ -205,38 +205,38 @@ p a{
     max-width: 43%;
     margin-top: 48px;
     margin-left: -50px;
-}
+    }
 .intro-paragraph {
     position: absolute;
     top: 450px;
     left: -130px;
     max-width: 565px;
 
-}
+    }
 
  /* About Section */
 .about {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     bottom: 0;
-}
+    }
 .recipe {
     top: 100px;
     max-width: 20%;
     margin-left: 5%;
-}
+    }
 .ingredients {
     max-width: 40%;
     margin-left: 5%;
-}
+    }
 .la-way {
     max-width: 50%;
     margin-left: 5%;
-}
+    }
 .viola {
     margin-left: 5%;
-    max-width: 50%;
-}
+    max-width: 70%;
+    }
 
 /* Reasons Why Section */
 .clearfix {
@@ -244,32 +244,31 @@ p a{
     flex-wrap:nowrap;
     align-items:baseline;
     margin-left: 5%;
-}
+    }
 .reason1 {
    max-width:90%;
    border: 1px solid white;
-}
+    }
 .reason2 {
     max-width:90%;
     margin: 0;
     border: 1px solid white;
-}
+    }
 .reason3 {
     max-width: 90%;
     margin: 0;
     border: 1px solid white;
-}
+    }
 .reason4 {
     max-width:90%;
     margin: 0;
     border: 1px solid white;
-}
+    }
 /* Let's Talk Section */
 .chef-image {
     margin-left: 2%;
     max-width: 49%;
-    z-index: -10;
-}
+    }
 .lets-talk {
     position:absolute;
     bottom: -200px;
@@ -280,16 +279,44 @@ p a{
     font-family: sans-serif;
     text-decoration: none;
     color:#505052; 
-}
+    }
 .lets-talk a:hover {
     color: #fff;
-}
+    }
 .lets-talk-statement {
-    position:absolute;
+    position:relative;
+    bottom:-10px;
     font-family: sans-serif;
-}
-/* Side Links */
+    }
+/* Aside Links */
 
+.instagram {
+    position: fixed;
+    top: 40%;
+    left: -45px;
+    transform: rotate(270deg);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:bold;
+    color: #c88064;
+   
+    }
+.instagram:hover {
+    color:#fff;
+    }
+.language {
+    position: fixed;
+    top: 40%;
+    right: -45px;
+    transform: rotate(90deg);
+    text-decoration:none;
+    font-family:sans-serif;
+    font-weight:bold;
+    color: #c88064;
+    }
+.language:hover {
+    color:#fff;
+    }
 
 
 
