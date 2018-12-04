@@ -138,6 +138,7 @@ p a{
     left: 2%;
     max-width: 21%;
     padding: 0;
+    z-index:1;
     }
 .logo:hover {
     opacity: 0.8;
@@ -301,9 +302,9 @@ p a{
     margin-left: 2%;
     max-width: 49%;
     }
-.lets-talk {
+.lets-talk-email {
     position:absolute;
-    bottom: -320px;
+    bottom: -310px;
     left: 450px;
     font-size : 80px;
     letter-spacing: -5px;
@@ -312,9 +313,15 @@ p a{
     text-decoration: none;
     color: #505052;
     }
-.lets-talk:hover {
+.lets-talk-email:hover {
     color: #fff;
     }
+.lets-talk-email img {
+    margin: -50px;
+}
+.lets-talk-email img:hover {
+    opacity: 0;
+}
 .lets-talk-statement {
     position:absolute;
     bottom:-450px;
@@ -324,7 +331,7 @@ p a{
 }
 /* Aside Links */
 
-.instagram {
+.social-media {
     position: fixed;
     top: 40%;
     left: -45px;
