@@ -249,7 +249,7 @@ p a{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     position: absolute;
-    bottom: 60px;
+    bottom: 110px;
     left: 150px;
     max-width:700px;
     color:black;
@@ -260,6 +260,7 @@ p a{
 }
 .viola {
     margin-left: -80px;
+    margin-bottom: 50px;
     max-width: 80%;
     }
 
