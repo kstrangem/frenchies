@@ -100,7 +100,11 @@ textarea {
 /* Main Concent */
 
 html {
-        box-sizing: border-box;
+
+    box-sizing: border-box;
+    max-width: 1080px;
+    min-width: 1080px;
+
     }
     *, *:before, *:after {
         box-sizing: inherit;
@@ -121,6 +125,7 @@ p {
     margin-left: 50%;
     font-size: 20px;
 }
+
 p a{
     text-decoration: none;
     color: white;
@@ -146,25 +151,34 @@ p a{
     }
 
 /* Intro Section */
-
+.title-container {
+    position:relative;
+}
+.frog-soup {
+    position: relative;
+    max-width: 58%;
+    margin-top: 48px;
+    margin-left: -10px;
+    }
  .title {
     position: absolute;
     left: 0; 
     width: 100%;
-    margin-left:40%;
-    margin-top: 10px;
+    margin-left:55%;
+    margin-top: -80px;
     font-size : 80px;
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: -5px;
     top: 200px; 
+    width:auto;
     }
  .title-line2 {
     position:absolute;
     left: 0; 
     width: 100%;
-    margin-left:40%;
-    margin-top: 15px;
+    margin-left:55%;
+    margin-top: -85px;
     font-size : 80px;
     letter-spacing: -5px;
     font-weight: bolder;
@@ -174,9 +188,8 @@ p a{
  .title-line3 {
     position:absolute;
     left: 0; 
-    width: 100%;
-    margin-left:40%;
-    margin-top: 10px;
+    margin-left:55%;
+    margin-top: -98px;
     font-size : 80px;
     letter-spacing: -5px;
     font-weight: bolder;
@@ -187,13 +200,12 @@ p a{
  .title-remark {
     position:absolute;
     left: 0; 
-    width: 100%;
     font-style: bolder;
     font-size: 25px;
     font-family: sans-serif;
     color: white;
-    margin-left: 53%;
-    top: 400px;
+    margin-left: 71%;
+    top: 290px;
     }
 .header-image { 
    position: relative; 
@@ -201,16 +213,12 @@ p a{
    z-index: -10;
    margin-left: 5%;
    }
-.frog-soup {
-    max-width: 43%;
-    margin-top: 48px;
-    margin-left: -50px;
-    }
 .intro-paragraph {
     position: absolute;
-    top: 450px;
-    left: -130px;
-    max-width: 565px;
+    top: 350px;
+    left: 55px;
+    max-width: 900px;
+    font-size: 18px;
 
     }
 
@@ -220,8 +228,12 @@ p a{
     position: sticky;
     bottom: 0;
     }
+.about-container {
+    position: relative;
+    text-align: center;
+    color: #505052;
+ }
 .recipe {
-    top: 100px;
     max-width: 20%;
     margin-left: 5%;
     }
@@ -233,61 +245,82 @@ p a{
     max-width: 50%;
     margin-left: 5%;
     }
+.disclaimer {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    position: absolute;
+    bottom: 60px;
+    left: 150px;
+    max-width:700px;
+    color:black;
+    font-size: 14px;
+ }
+ .disclaimer a {
+    color: black;
+}
 .viola {
-    margin-left: 5%;
-    max-width: 70%;
+    margin-left: -80px;
+    max-width: 80%;
     }
 
 /* Reasons Why Section */
 .clearfix {
     display:flex;
     flex-wrap:nowrap;
+    margin: 0 -5px;
     align-items:baseline;
     margin-left: 5%;
     }
 .reason1 {
    max-width:90%;
+   margin: 0 5px;
    border: 1px solid white;
     }
 .reason2 {
     max-width:90%;
-    margin: 0;
+    margin: 0 5px;
     border: 1px solid white;
     }
 .reason3 {
     max-width: 90%;
-    margin: 0;
+    margin: 0 5px;
     border: 1px solid white;
     }
 .reason4 {
     max-width:90%;
-    margin: 0;
+    margin: 0 5px;
     border: 1px solid white;
     }
 /* Let's Talk Section */
+.lets-talk-section {
+    position:relative;
+    bottom:-10px;
+    }
 .chef-image {
     margin-left: 2%;
     max-width: 49%;
     }
 .lets-talk {
     position:absolute;
-    bottom: -200px;
-    left: 300px;
+    bottom: -320px;
+    left: 450px;
     font-size : 80px;
     letter-spacing: -5px;
     font-weight: bolder;
     font-family: sans-serif;
     text-decoration: none;
-    color:#505052; 
+    color: #505052;
     }
-.lets-talk a:hover {
+.lets-talk:hover {
     color: #fff;
     }
 .lets-talk-statement {
-    position:relative;
-    bottom:-10px;
-    font-family: sans-serif;
-    }
+    position:absolute;
+    bottom:-450px;
+    left: -85px;
+    max-width: 39%;
+    font-size: 18px;
+}
 /* Aside Links */
 
 .instagram {
