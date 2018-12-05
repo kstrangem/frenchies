@@ -106,7 +106,7 @@ html {
     min-width: 1080px;
 
     }
-    *, *:before, *:after {
+*, *:before, *:after {
         box-sizing: inherit;
     }
 body {
@@ -159,70 +159,64 @@ p a{
     }
  .title-line1 {
     position: absolute;
+    top: 200px; 
     left: 0; 
     width: 100%;
-    margin-left:55%;
-    margin-top: -80px;
+    margin: -80px 0px 0px 55%;
     font-size : 80px;
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: -5px;
-    top: 200px; 
-    width:auto;
     }
  .title-line2 {
     position:absolute;
-    left: 0; 
-    width: 100%;
-    margin-left:55%;
-    margin-top: -85px;
-    font-size : 80px;
-    letter-spacing: -5px;
-    font-weight: bolder;
-    font-family: sans-serif; 
     top: 275px;
+    left: 0; 
+    margin: -85px 0px 0px 55%;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: -5px; 
     }
  .title-line3 {
     position:absolute;
-    left: 0; 
-    margin-left:55%;
-    margin-top: -98px;
-    font-size : 80px;
-    letter-spacing: -5px;
-    font-weight: bolder;
-    color: white;
-    font-family: sans-serif; 
     top: 355px;
+    left: 0; 
+    margin: -98px 0px 0px 55%;
+    font-size : 80px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: -5px; 
+    color: white;
     }
  .title-line3-remark {
     position:absolute;
-    left: 0; 
-    font-style: bolder;
+    top: 290px;
+    left: 0;
+    margin-left: 71%; 
     font-size: 25px;
     font-family: sans-serif;
+    font-style: bolder;
     color: white;
-    margin-left: 71%;
-    top: 290px;
     }
 .intro-paragraph {
     position: absolute;
     top: 350px;
     left: 55px;
     max-width: 900px;
-    color:#505052;
     font-size: 18px;
+    color:#505052;
     }
 .header-image { 
    position: relative; 
    width: 100%; 
-   z-index: -10;
    margin-left: 5%;
+   z-index: -10;
    }
 .frog-soup {
     position: relative;
     max-width: 58%;
-    margin-top: 48px;
-    margin-left: -10px;
+    margin: 48px 0px 0px -10px;
     }
 
  /* About Section */
@@ -235,24 +229,24 @@ p a{
     position: sticky;
     top:0;
     }
+.container {
+    position: relative;
+    text-align: center;
+    color: #505052;
+    }
 .recipe {
     max-width: 35%;
     margin-left: -45%;
-    border: 1px solid white;
     }
 .ingredients {
     max-width: 60%;
     margin-left: 5%;
-    border: 1px solid white;
     }
 .la-way {
     max-width: 80%;
     margin-left: -3%;
-    border: 1px solid white;
     }
 .disclaimer {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     position: absolute;
     bottom: 110px;
     left: 150px;
@@ -261,47 +255,41 @@ p a{
     font-size: 14px;
     }
  .viola {
-    margin-left: -80px;
-    margin-bottom: 50px;
+    margin: 190px 0px 50px -80px;
     max-width: 80%;
-    border: 1px solid white;
-    }
-.container {
-    position: relative;
-    text-align: center;
-    color: #505052;
     }
  .disclaimer a {
     color: black;
     }
 
 /* Reasons Why Section */
+
 .clearfix {
-    border: 1px solid white;
     display:flex;
     flex-wrap:nowrap;
-    padding-top:0;
-    margin: 0 -5px 0 -5px;
     align-items:baseline;
-    margin-left: 5%;
+    margin: 0px -5px 0px 5%;
+    border: 1px solid white;
     }
 .reason1 {
    max-width:120%;
-   margin: 0 8px;
+   margin: 0px 8px;
     }
 .reason2 {
     max-width:120%;
-    margin: 0 10px;
+    margin: 0px 10px;
     }
 .reason3 {
     max-width: 120%;
-    margin: 0 23px;
+    margin: 0px 23px;
     }
 .reason4 {
     max-width:120%;
-    margin: 0 33px;
+    margin: 0px 33px;
     }
+
 /* Let's Talk Section */
+
 .lets-talk-section {
     position:relative;
     bottom:-10px;
@@ -314,11 +302,11 @@ p a{
     position:absolute;
     bottom: -310px;
     left: 450px;
-    font-size : 80px;
-    letter-spacing: -5px;
     font-weight: bolder;
     font-family: sans-serif;
     text-decoration: none;
+    font-size: 80px;
+    letter-spacing: -5px;
     color: #505052;
     }
 .lets-talk-email:hover {
@@ -326,17 +314,18 @@ p a{
     }
 .lets-talk-email img {
     margin: -50px;
-}
+    }
 .lets-talk-email img:hover {
     opacity: 0;
-}
+    }
 .lets-talk-statement {
     position:absolute;
     bottom:-450px;
     left: -85px;
     max-width: 39%;
     font-size: 18px;
-}
+    }
+
 /* Aside Links */
 
 .social-media {
@@ -346,7 +335,7 @@ p a{
     transform: rotate(270deg);
     text-decoration: none;
     font-family: sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     color: #c88064;
     }
 .social-media:hover {
@@ -357,13 +346,13 @@ p a{
     top: 40%;
     right: -45px;
     transform: rotate(90deg);
-    text-decoration:none;
-    font-family:sans-serif;
-    font-weight:bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
     color: #c88064;
     }
 .language:hover {
-    color:#fff;
+    color: #fff;
     }
 
 
