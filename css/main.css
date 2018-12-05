@@ -222,10 +222,6 @@ p a{
  /* About Section */
 
 .about {
-    position: -webkit-sticky; /* Safari */
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
     position: sticky;
     top:0;
     }
