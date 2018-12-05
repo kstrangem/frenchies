@@ -124,13 +124,14 @@ p {
     max-width: 750px;
     margin-left: 50%;
     font-size: 20px;
-}
+    }
 
 p a{
     text-decoration: none;
     color: white;
     }
-/* Main Nav */
+
+/* Main Nav - Jump To Links */
 
 .logo {
     position: fixed;
@@ -152,16 +153,11 @@ p a{
     }
 
 /* Intro Section */
+
 .title-container {
     position:relative;
-}
-.frog-soup {
-    position: relative;
-    max-width: 58%;
-    margin-top: 48px;
-    margin-left: -10px;
     }
- .title {
+ .title-line1 {
     position: absolute;
     left: 0; 
     width: 100%;
@@ -198,7 +194,7 @@ p a{
     font-family: sans-serif; 
     top: 355px;
     }
- .title-remark {
+ .title-line3-remark {
     position:absolute;
     left: 0; 
     font-style: bolder;
@@ -208,43 +204,51 @@ p a{
     margin-left: 71%;
     top: 290px;
     }
+.intro-paragraph {
+    position: absolute;
+    top: 350px;
+    left: 55px;
+    max-width: 900px;
+    color:#505052;
+    font-size: 18px;
+    }
 .header-image { 
    position: relative; 
    width: 100%; 
    z-index: -10;
    margin-left: 5%;
    }
-.intro-paragraph {
-    position: absolute;
-    top: 350px;
-    left: 55px;
-    max-width: 900px;
-    font-size: 18px;
-
+.frog-soup {
+    position: relative;
+    max-width: 58%;
+    margin-top: 48px;
+    margin-left: -10px;
     }
 
  /* About Section */
+
 .about {
     position: -webkit-sticky; /* Safari */
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     position: sticky;
-    bottom: 0;
+    top:0;
     }
-.about-container {
-    position: relative;
-    text-align: center;
-    color: #505052;
- }
 .recipe {
-    max-width: 20%;
-    margin-left: 5%;
+    max-width: 35%;
+    margin-left: -45%;
+    border: 1px solid white;
     }
 .ingredients {
-    max-width: 40%;
+    max-width: 60%;
     margin-left: 5%;
+    border: 1px solid white;
     }
 .la-way {
-    max-width: 50%;
-    margin-left: 5%;
+    max-width: 80%;
+    margin-left: -3%;
+    border: 1px solid white;
     }
 .disclaimer {
     position: -webkit-sticky; /* Safari */
@@ -255,43 +259,47 @@ p a{
     max-width:700px;
     color:black;
     font-size: 14px;
- }
- .disclaimer a {
-    color: black;
-}
-.viola {
+    }
+ .viola {
     margin-left: -80px;
     margin-bottom: 50px;
     max-width: 80%;
+    border: 1px solid white;
+    }
+.container {
+    position: relative;
+    text-align: center;
+    color: #505052;
+    }
+ .disclaimer a {
+    color: black;
     }
 
 /* Reasons Why Section */
 .clearfix {
+    border: 1px solid white;
     display:flex;
     flex-wrap:nowrap;
-    margin: 0 -5px;
+    padding-top:0;
+    margin: 0 -5px 0 -5px;
     align-items:baseline;
     margin-left: 5%;
     }
 .reason1 {
-   max-width:90%;
-   margin: 0 5px;
-   border: 1px solid white;
+   max-width:120%;
+   margin: 0 8px;
     }
 .reason2 {
-    max-width:90%;
-    margin: 0 5px;
-    border: 1px solid white;
+    max-width:120%;
+    margin: 0 10px;
     }
 .reason3 {
-    max-width: 90%;
-    margin: 0 5px;
-    border: 1px solid white;
+    max-width: 120%;
+    margin: 0 23px;
     }
 .reason4 {
-    max-width:90%;
-    margin: 0 5px;
-    border: 1px solid white;
+    max-width:120%;
+    margin: 0 33px;
     }
 /* Let's Talk Section */
 .lets-talk-section {
