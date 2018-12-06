@@ -135,9 +135,9 @@ p a{
 
 .logo {
     position: fixed;
-    top: -10%;
-    left: 2%;
-    max-width: 21%;
+    top: -9%;
+    left: 5.5%;
+    max-width: 20.5%;
     padding: 0;
     z-index:1;
     }
@@ -146,9 +146,9 @@ p a{
     }
 .frog-icon {
     position: fixed;
-    top: -1%;
-    right: 2%;
-    max-width: 15%;
+    top: 1%;
+    right: 6%;
+    max-width: 12%;
     padding: 0;
     }
 
@@ -162,8 +162,8 @@ p a{
     top: 200px; 
     left: 0; 
     width: 100%;
-    margin: -80px 0px 0px 55%;
-    font-size : 80px;
+    margin: -80px 0px 0px 69%;
+    font-size : 100px;
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: -5px;
@@ -171,9 +171,10 @@ p a{
  .title-line2 {
     position:absolute;
     top: 275px;
-    left: 0; 
-    margin: -85px 0px 0px 55%;
-    font-size: 80px;
+    left: 0;
+    width: 100%; 
+    margin: -70px 0px 0px 69%;
+    font-size: 100px;
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: -5px; 
@@ -182,8 +183,8 @@ p a{
     position:absolute;
     top: 355px;
     left: 0; 
-    margin: -98px 0px 0px 55%;
-    font-size : 80px;
+    margin: -70px 0px 0px 69%;
+    font-size : 100px;
     font-weight: bolder;
     font-family: sans-serif;
     letter-spacing: -5px; 
@@ -191,9 +192,9 @@ p a{
     }
  .title-line3-remark {
     position:absolute;
-    top: 290px;
+    top: 337px;
     left: 0;
-    margin-left: 71%; 
+    margin-left: 90%; 
     font-size: 25px;
     font-family: sans-serif;
     font-style: bolder;
@@ -201,9 +202,8 @@ p a{
     }
 .intro-paragraph {
     position: absolute;
-    top: 350px;
-    left: 55px;
-    max-width: 900px;
+    top: 445px;
+    left: 80px;
     font-size: 18px;
     color:#505052;
     }
@@ -215,8 +215,8 @@ p a{
    }
 .frog-soup {
     position: relative;
-    max-width: 58%;
-    margin: 48px 0px 0px -10px;
+    max-width: 80%;
+    margin: -5px 0px 0px -40px;
     }
 
  /* About Section */
@@ -233,7 +233,6 @@ p a{
     margin-top:-75px;
     text-align: center;
     color: #505052;
-    border: 1px solid white;
     }
 .container2 {
     position: relative;
@@ -244,19 +243,16 @@ p a{
     
     max-width: 35%;
     margin-left: -45%;
-    border: 1px solid white;
     }
 .ingredients {
     max-width: 60%;
     margin-left: 5%;
-    border: 1px solid white;
     }
 .la-way {
     position:relative;
     top:170px;
     max-width: 80%;
     margin-left: -3%;
-    border: 1px solid white;
     }
 .disclaimer {
     position: absolute;
