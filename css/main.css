@@ -239,23 +239,21 @@ p a{
     margin-left: 50px;
     flex-direction:row-reverse;
     align-items:center;
-}
+    }
 .container3 {
-    max-width:50%;
+    max-width: 50%;
     margin-left:-100px;
-}
+    }
 .recipe {
     max-width: 90%;
-    margin-left:20%;
-    margin-top:-5px;
+    margin: -5px 0px 0px 20%;
     }
 .ingredients {
     max-width: 85%;
-    margin-left: 20%;
-    margin-top:20px;
+    margin: 20px 0px 0px 20%;
     }
 .la-way {
-    top:160px;
+    top: 160px;
     max-width: 90%;
     margin-left: 150px;
     }
@@ -284,8 +282,8 @@ p a{
     margin: 0px 0px 0px 10%;
     }
 .reason1 {
-   max-width:120%;
-   margin: 0px 8px;
+    max-width:120%;
+    margin: 0px 8px;
     }
 .reason2 {
     max-width:120%;
@@ -333,7 +331,7 @@ p a{
 .arrow {
     max-width: 32%;
     padding: 20px;
-}
+    }
 .lets-talk-statement {
     position:absolute;
     bottom:-425px;
@@ -393,7 +391,6 @@ p a{
     font-weight: bold;
     color: #c88064;
     }
-}
 
 
 
