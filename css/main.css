@@ -147,7 +147,7 @@ p a{
 .frog-icon {
     position: fixed;
     top: 1%;
-    right: 6%;
+    right: -1%;
     max-width: 12%;
     padding: 0;
     }
@@ -162,7 +162,7 @@ p a{
     top: 200px; 
     left: 0; 
     width: 100%;
-    margin: -80px 0px 0px 69%;
+    margin: -80px 0px 0px 63%;
     font-size : 110px;
     font-weight: bolder;
     font-family: sans-serif;
@@ -173,7 +173,7 @@ p a{
     top: 275px;
     left: 0;
     width: 100%; 
-    margin: -63px 0px 0px 69%;
+    margin: -63px 0px 0px 63%;
     font-size: 110px;
     font-weight: bolder;
     font-family: sans-serif;
@@ -183,7 +183,7 @@ p a{
     position:absolute;
     top: 355px;
     left: 0; 
-    margin: -55px 0px 0px 69%;
+    margin: -55px 0px 0px 63%;
     font-size : 110px;
     font-weight: bolder;
     font-family: sans-serif;
@@ -193,7 +193,7 @@ p a{
  .title-line3-remark {
     position:absolute;
     top: 365px;
-    margin-left: 92%; 
+    margin-left: 86%; 
     font-size: 25px;
     font-family: sans-serif;
     font-style: bolder;
@@ -202,8 +202,8 @@ p a{
 .intro-paragraph {
     position: absolute;
     top: 445px;
-    left: 220px;
-    width:50%;
+    left: 150px;
+    width:49%;
     font-size: 19px;
     color:#505052;
     }
@@ -215,7 +215,7 @@ p a{
    }
 .frog-soup {
     position: relative;
-    max-width: 80%;
+    max-width: 70%;
     margin: -5px 0px 0px -40px;
     }
 
@@ -223,10 +223,8 @@ p a{
 
 .card {
     display:flex;
-   
     align-items:center;
     margin: 0px -5px 0px 0px;
-    border:1px solid white;
     }
 .container {
     position: relative;
@@ -242,29 +240,36 @@ p a{
     flex-direction:row-reverse;
     align-items:center;
 }
+.container3 {
+    max-width:50%;
+    margin-left:-100px;
+}
 .recipe {
-    max-width: 50%;
+    max-width: 90%;
+    margin-left:20%;
+    margin-top:-5px;
     }
 .ingredients {
-    max-width: 59%;
-    margin-left: 5%;
+    max-width: 85%;
+    margin-left: 20%;
+    margin-top:20px;
     }
 .la-way {
-    top:170px;
-    max-width: 100%;
-    margin-left: -3%;
+    top:160px;
+    max-width: 90%;
+    margin-left: 150px;
     }
 .disclaimer {
     position: absolute;
     bottom: 110px;
-    left: 150px;
+    left: 260px;
     max-width:700px;
     color:black;
     font-size: 14px;
     }
  .viola {
-    margin: 190px 0px 50px -80px;
-    max-width: 80%;
+    margin: 90px 0px 50px 145px;
+    max-width: 90%;
     }
  .disclaimer a {
     color: black;
@@ -276,7 +281,7 @@ p a{
     display:flex;
     flex-wrap:nowrap;
     align-items:baseline; 
-    margin: 0px -5px 0px 5%;
+    margin: 0px 0px 0px 10%;
     }
 .reason1 {
    max-width:120%;
@@ -303,7 +308,7 @@ p a{
     }
 .chef-image {
     margin-left: 2%;
-    max-width: 49%;
+    max-width: 55%;
     }
 .lets-talk-email {
     position:absolute;
@@ -313,7 +318,7 @@ p a{
     font-family: sans-serif;
     text-decoration: none;
     font-size: 80px;
-    letter-spacing: -5px;
+    letter-spacing: -3px;
     color: #505052;
     }
 .lets-talk-email:hover {
@@ -325,11 +330,15 @@ p a{
 .lets-talk-email img:hover {
     opacity: 0;
     }
+.arrow {
+    max-width: 32%;
+    padding: 20px;
+}
 .lets-talk-statement {
     position:absolute;
-    bottom:-450px;
-    left: -85px;
-    max-width: 39%;
+    bottom:-425px;
+    left: -30px;
+    max-width: 49%;
     font-size: 18px;
     }
 
@@ -348,22 +357,44 @@ p a{
 .social-media:hover {
     color:#fff;
     }
-.highlight:hover {
-    color: #c88064;
-}
-.language {
+.french-language {
     position: fixed;
     top: 40%;
-    right: -45px;
+    right:4%;
     transform: rotate(90deg);
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
     color: #c88064;
     }
-.language:hover {
+.french-language:hover {
     color: #fff;
     }
+.us-language {
+    position: fixed;
+    top: 45%;
+    right:4%;
+    transform: rotate(90deg);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #c88064;
+    }
+.us-language:hover {
+    color:#fff;
+    }
+.slash {
+     position: fixed;
+    top: 42.5%;
+    right:4.75%;
+    transform: rotate(90deg);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #c88064;
+    }
+}
+
 
 
 
