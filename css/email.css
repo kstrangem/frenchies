@@ -1,0 +1,28 @@
+
+html {
+
+    box-sizing: border-box;
+    max-width: 1080px;
+    min-width: 1080px;
+    }
+body {
+    background-color: #f2a891;
+    padding-top: 4em;
+    }
+h1 {
+	color: #505052;
+	text-align: center;
+	font-family: sans-serif;
+	}
+label {
+	color: #505052;
+	font-weight:bolder;
+	}
+#input {
+	border: 5px solid #fff;
+	background: #fff;
+	text-align:center;
+	border-radius: 25px;
+	padding: 5em;
+	margin: 5em;
+}
