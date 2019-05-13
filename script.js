@@ -5,7 +5,7 @@ if (r == true) {
   window.open("https://kstrange.studio.mcad.edu/frenchies_webdev_final/french/french.html");
   txt = "You pressed French!";
 } else {
-  confirm("English it is!");
+  alert("English it is!");
 };
 
 
