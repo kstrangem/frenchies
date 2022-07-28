@@ -1,12 +1,12 @@
 //language page change
-var txt;
-var r = confirm("Would you like to translate to French?");
-if (r == true) {
-  window.open("https://kstrange.studio.mcad.edu/frenchies_webdev_final/french/french.html");
-  txt = "You pressed French!";
-} else {
-  alert("English it is!");
-};
+//var txt;
+//var r = confirm("Would you like to translate to French?");
+//if (r == true) {
+  //window.open("https://kstrange.studio.mcad.edu/frenchies_webdev_final/french/french.html");
+  //txt = "You pressed French!";
+//} else {
+  //alert("English it is!");
+//};
 
 
 //email prompt and validation
